@@ -113,9 +113,6 @@ cron_entry_validation
 # adding entry to cron entry var 
 cron_entry="${minute} ${hour} ${days} ${month} ${weekdays} ${Task}"
 
-# showing preview 
-echo -e "${BLUE}${BOLD}Cron Entry Preview: ${RESET}${cron_entry}"
-
 
 tempfile=$(mktemp) # make temporary file
 crontab -l 2>/dev/null > ${tempfile} # list existing jobs and save to tempfile
