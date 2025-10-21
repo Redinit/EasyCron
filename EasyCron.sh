@@ -39,6 +39,7 @@ Path_Validation() {
 	then
 		echo -e "${YELLOW_BG}File Existed But Not Executable!"
 		echo -e "Make Scripts Executable: chmod +x ${1} ${RESET}"
+		exit 1
 
 	fi
 }
