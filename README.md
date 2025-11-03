@@ -44,7 +44,7 @@ It automatically:
 
 Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/EasyCron.git
+git clone https://github.com/Redinit/EasyCron.git
 cd EasyCron
 chmod +x easycron.sh
 ```
@@ -95,6 +95,17 @@ Cron Entry: 0 8 * * * /home/user/hello.sh
 You Can Verify Using: crontab -l
 
 ```
+
+---
+### 🛣️ Roadmap & Known Issues 🛠️
+
+We are actively working to improve EasyCron. Here are the known limitations and features planned for future releases:
+
+* **Input Validation:** Currently, custom time inputs (e.g., minute: 60) are not validated against the correct numeric range. We plan to implement full range checking soon.
+* **Path Retry:** If a file path is entered incorrectly, the script currently exits. We plan to update the script to allow users to retry path entry.
+* **Removal Feature:** Adding a feature to easily remove scheduled tasks via the tool.
+
+---
 
 ## 🧑‍💻 About the Creator
 
