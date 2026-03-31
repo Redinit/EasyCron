@@ -33,21 +33,18 @@ print_banner() {
 
 #==============================================================
 #  Function: path_validation
-#  Purpose : Verify if file/command exists and is executable
+#  Purpose : Verify if file/command exists
 #==============================================================
 Path_Validation() {
-	if [[ ! -e ${1} ]];
-	then
-		echo -e "${RED}ERROR: There is No ${1}  Script/Command Existed!"
-		echo -e "Provide Correct Script/Command!${RESET}"
-		exit 1
-	elif [[ ! -x ${1} ]];
-	then
-		echo -e "${YELLOW_BG}File Existed But Not Executable!"
-		echo -e "Make Scripts Executable: chmod +x ${1} ${RESET}"
-		exit 1
 
-	fi
+        local cmd_to_check=$(echo ${1} | awk '{print $1}')
+
+        if ! command -v "$cmd_to_check" &> /dev/null && [ ! -e "$cmd_to_check" ] ;
+        then
+                echo -e "${RED}ERROR: There is No ${1}  Script/Command found!"
+                echo -e "Provide Correct Script/Command path!${RESET}"
+                exit 1
+        fi
 }
 
 #==============================================================
