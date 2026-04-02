@@ -106,16 +106,3 @@ We are actively working to improve EasyCron. Here are the known limitations and 
 * **Removal Feature:** Adding a feature to easily remove scheduled tasks via the tool.
 
 ---
-
-## 🧑‍💻 About the Creator
-
-Hi, I’m Redinit (A.K.A Viswajith), a beginner learning Bash scripting and Linux.
-I created EasyCron to make scheduling tasks simple for new users like me.
-
-While learning, I faced confusion with cron syntax — so I built this tool by combining my logic, research, and help from ChatGPT and other online resources.
-Even as a beginner, I understood every line of my script and improved step by step.
-
-💬 My message to other beginners:
-Don't feel bad about making mistakes or asking for help.
-Every developer learns by doing, failing, and improving.
-Keep going — you’ll become a pro one day too! 🚀
