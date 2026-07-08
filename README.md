@@ -1,12 +1,12 @@
-# 🕒 EasyCron — Simplify Linux Task Scheduling
+#  EasyCron — Simplify Linux Task Scheduling
 
-### ✨ A Beginner-Friendly Task Scheduler for Linux Users
+###  A Beginner-Friendly Task Scheduler for Linux Users
 
 EasyCron is a simple **Bash-based tool** that helps beginners easily create and manage scheduled tasks on Linux without manually editing the `crontab` configuration file.
 
 ---
 
-## 🚀 About EasyCron
+##  About EasyCron
 
 Many new Linux users struggle to set up scheduled tasks using `crontab`.  
 EasyCron provides a **user-friendly terminal interface** that guides you step-by-step to create scheduled jobs — no need to remember cron syntax!
@@ -16,22 +16,22 @@ It automatically:
 - Validates the input and file path
 - Adds the correct cron entry to the system crontab
 
-> 🧠 Ideal for beginners who want to automate scripts or commands easily without touching cron syntax.
+>  Ideal for beginners who want to automate scripts or commands easily without touching cron syntax.
 
 ---
 
-## 💡 Features
+##  Features
 
-✅ Interactive and beginner-friendly  
-✅ Safe file path validation  
-✅ Supports multiple schedule types  
-✅ Automatically appends valid entries to crontab  
-✅ Clean and colored output messages  
-✅ Error handling for invalid or empty fields  
+- Interactive and beginner-friendly  
+- Safe file path validation  
+- Supports multiple schedule types  
+- Automatically appends valid entries to crontab  
+- Clean and colored output messages  
+- Error handling for invalid or empty fields  
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 - Linux (any distro)
 - Bash shell
@@ -40,7 +40,7 @@ It automatically:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 ```bash
@@ -49,7 +49,7 @@ cd EasyCron
 chmod +x easycron.sh
 ```
 
-## 🖥️ Usage
+##  Usage
 
 Run EasyCron:
 ```bash
@@ -75,7 +75,7 @@ Follow the on-screen instructions:
 Cron Entry Preview: 0 8 * * * /home/user/scripts/backup.sh
 ```
 
-## 📘 Output Preview
+##  Output Preview
 ```bash
 ============================================================================
                           Welcome To EasyCron!   
@@ -97,7 +97,7 @@ You Can Verify Using: crontab -l
 ```
 
 ---
-### 🛣️ Roadmap & Known Issues 🛠️
+###  Roadmap & Known Issues 
 
 We are actively working to improve EasyCron. Here are the known limitations and features planned for future releases:
 
